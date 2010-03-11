@@ -1,0 +1,1 @@
+A simple cellular automaton ( http://en.wikipedia.org/wiki/Cellular_automaton ) written in Scala, with a trait for a few mathematical facilities.
