@@ -63,16 +63,6 @@ object Principal {
     val input = new Array[Int](41)
     input(20) = 1
     CA1.generator(input, 90, 50) // initial array, index value and number of iterations
-    // multiples of 15 are generally interesting
+    // multiples of 15 around the half-way mark (255/2) e.g. 105, 120, 135 are generally interesting
   }
 }
-             
-// will need to practice use of _, and =>, yield, and packages, mixins and other characteristics
-// using private, protected etc. too
-
-// throwing errors when values are out of range,
-// e.g. in arraySplitter, when tbsindex > tobesplit.length
-
-// use more Lists
-// Using documentation "-" etc.
-// 
