@@ -1,1 +1,3 @@
 A simple cellular automaton ( http://en.wikipedia.org/wiki/Cellular_automaton ) written in Scala, with a trait for a few mathematical facilities.
+
+The edges wrap around, so in order to have a CA with simpler behaviour, a single point in the centre with greater width of the canvas than length will give the desired results.  You'll see what I mean if you play with it.
