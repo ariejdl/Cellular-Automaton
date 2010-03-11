@@ -1,3 +1,9 @@
-A simple cellular automaton ( http://en.wikipedia.org/wiki/Cellular_automaton ) written in Scala, with a trait for a few mathematical facilities.
+A simple cellular automaton ( http://en.wikipedia.org/wiki/Cellular_automaton )
+written in Scala, with a trait for a few mathematical facilities.
 
-The edges wrap around, so in order to have a CA with simpler behaviour, a single point in the centre with greater width of the canvas than length will give the desired results.  You'll see what I mean if you play with it.
+The edges wrap around, so in order to have a CA with simpler behaviour,
+a single point in the centre with greater width of the canvas than
+length will give the desired results.  You'll see what I mean if you play with it.
+
+The utilities trait shows a few ways to play with Binary Arrays and natural 
+logs, including recursion, currying and use of the wildcard.
